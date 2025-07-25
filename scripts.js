@@ -1,3 +1,3 @@
-function toggleModboleMenu() {
-    document.getElementById("menu").classList.toggle("acctive");
+function toggleMobileMenu() {
+    document.getElementById("menu").classList.toggle("active");
 }
