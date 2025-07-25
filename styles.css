@@ -346,3 +346,32 @@ h3 {
 		}
 	}
 }
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  bottom: 30px;
+  right: 30px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #4a6cf7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: all 0.3s;
+  z-index: 1000;
+}
+
+.back-to-top:hover {
+  background: #3a5ce4;
+  transform: scale(1.1);
+}
+
+.back-to-top span {
+  font-size: 20px;
+  line-height: 1;
+}
